@@ -1,0 +1,35 @@
+.navi{
+    width: 100vw;
+    height: 4rem;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 25;
+}.navi-in{
+    max-width: 1860px;
+    margin: 0 auto 0 auto;
+    height: 4rem;
+    padding: 0rem 5rem 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content:  space-between;
+}.contact{
+    color:#e5e7eb;
+    border-radius: 2rem;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+}
+.span-container>span{
+    cursor: pointer;
+}.optionbutton{
+    cursor: pointer;
+    overflow: hidden;
+    color:#a9abaf;
+}.optionbutton:hover{
+    color:#e5e7eb;
+}.optionbutton_border{
+    border: 1px solid #e5e7eb;
+    border-radius: 100%;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}

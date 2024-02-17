@@ -1,0 +1,30 @@
+.cube-boarder-container{
+    position: absolute;
+    width: 100vw;
+    height: 264px;
+    top: 85%;
+    left:85%;
+    transform: translate(-50%,-50%) rotate(153.5deg);
+    background-color: #864258; 
+    
+}
+.cube-boarder-container-sm{
+    position: absolute;
+    width: 100vw;
+    height: 280px;
+    top: 87%;
+    left:87%;
+    transform: translate(-50%,-50%) rotate(153.5deg);
+    background-color: #3f1221; 
+}.cube-shadow{
+    position: absolute;
+    top: 80%;
+    left:80%;
+    transform: translate(-50%,-50%);
+    width:264px;
+    background-color: #977f874d;
+    height: 264px;
+    z-index: 50;
+    transition: all 1s;
+}.cube-shadow:hover{
+}
