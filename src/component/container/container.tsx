@@ -4,8 +4,8 @@ import {ScrollTrigger} from "gsap/ScrollTrigger"
 import { useEffect, useRef, useState } from "react"
 import "./container.css"
 import Clock from "../clock/clock"
-
 gsap.registerPlugin(ScrollTrigger)
+
 export default function Container(){
 
     const containerRef = useRef<HTMLDivElement>(null)
