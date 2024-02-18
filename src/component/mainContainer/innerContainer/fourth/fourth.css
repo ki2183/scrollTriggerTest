@@ -1,0 +1,22 @@
+.container-fourth{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+}.text-div-none{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    padding-left: 1rem;
+    width: 42rem;
+    height: 5.5rem;
+    background-color: transparent;
+    /* background-color: antiquewhite; */
+    color: lightgray;
+    font-size: 4rem;
+    /* opacity: 0; */
+    z-index: 50;
+    display: none;
+}

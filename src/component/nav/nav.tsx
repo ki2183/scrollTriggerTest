@@ -1,44 +1,12 @@
 import { useEffect, useRef } from "react"
 import "./nav.css"
-import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { CubeIn } from "../cube/cube"
 
 export default function Nav(){
-    const cubeRef = useRef<HTMLDivElement>(null)
-    const cubeMiniRef = useRef<HTMLDivElement>(null)
-
-    const fstColor = "#96153d";
-    const secColor = "#e62361";
-    const trdColor ="#da205a";
-
-    const fstColorsm = "#20da8d";
-    const secColorsm = "#5ae623";
-    const trdColorsm ="#839615";
-
-    // useEffect(()=>{
-    //     gsap.to(cubeMiniRef.current,{
-    //         rotate:"180deg"
-    //     })
-    // },[])
 
     return(
         <div className="navi">
-            
-            {/* <CubeIn 
-                    size={50}
-                    cubeRef={cubeRef}
-                    fstColor={fstColor}
-                    secColor={secColor}
-                    trdColor={trdColor}
-                  />
-            <CubeIn 
-                    size={20}
-                    cubeRef={cubeMiniRef}
-                    fstColor={fstColorsm}
-                    secColor={secColorsm}
-                    trdColor={trdColorsm}
-                  /> */}
+
             <div className="navi-in">
                 <div>
                     

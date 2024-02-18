@@ -1,0 +1,19 @@
+.frame-time{
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.616);
+  top: 10%;
+  left: 10%;
+  border-radius: 100%;
+}
+.time{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(103, 181, 255);
+  top:25%;
+  left:50%;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+}

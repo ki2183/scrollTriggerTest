@@ -1,0 +1,37 @@
+.container-fst{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    /* background-color: rgb(75, 75, 75); */
+    margin: 0px;
+    padding: 0px;
+}.circle1{
+    width: 5rem;
+    height: 5rem;
+    /* background-color: rgb(46, 22, 112); */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    z-index: 50;
+    border-radius: 100%;
+}.container-fst>div{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 4rem;
+}
+.fstText{
+    color: lightgray;
+    z-index: 30;
+    display: inline-block;
+    white-space: nowrap;
+    user-select: none;
+}.fstText:nth-child(1){
+    margin-left: -6rem;
+}.fstText:nth-child(2){
+    margin-right: -6rem;
+}

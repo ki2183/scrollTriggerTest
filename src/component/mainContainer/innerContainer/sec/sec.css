@@ -1,0 +1,22 @@
+.container-sec{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: aliceblue; */
+}.sec-text{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:80%;
+    left:80%;
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    z-index: 30;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 3rem;
+    opacity: 0;
+    user-select: none;
+}
